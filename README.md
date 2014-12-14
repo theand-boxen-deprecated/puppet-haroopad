@@ -1,11 +1,11 @@
-# MySql Workbench Puppet Module for Boxen [![Build Status](https://travis-ci.org/eloipoch/puppet-mysql_workbench.png?branch=master)](https://travis-ci.org/eloipoch/puppet-mysql_workbench)
+# Haroopad Puppet Module for Boxen \
 
-Install [MySql Workbench](http://www.mysql.com/products/workbench/), an Open Source visual database design tool for [MySql](http://www.mysql.com/).
+Install [Haroopad](http://pad.haroopress.com/).
 
 ## Usage
 
 ```puppet
-include mysql_workbench
+include haroopad
 ```
 
 ## Required Puppet Modules

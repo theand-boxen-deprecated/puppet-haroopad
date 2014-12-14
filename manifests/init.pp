@@ -1,11 +1,11 @@
-# Public: Install MySql Workbench to /Applications
+# Public: Install Haroopad to /Applications
 #
 # Examples
 #
-#   include mysql_workbench
-class mysql_workbench {
-  package { 'mysql_workbench':
+#   include haroopad
+class haroopad {
+  package { 'haroopad':
     provider => 'appdmg',
-    source   => 'http://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community-6.2.4-osx-i686.dmg/from/http://cdn.mysql.com/'
+    source   => 'https://bitbucket.org/rhiokim/haroopad-download/downloads/haroopad-v0.12.2.dmg'
   }
 }

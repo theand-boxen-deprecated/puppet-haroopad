@@ -1,11 +1,11 @@
 require 'spec_helper'
 
-describe 'mysql_workbench' do
+describe 'haroopad' do
   it do
-    should contain_class('mysql_workbench')
-    should contain_package('mysql_workbench').with({
+    should contain_class('haroopad')
+    should contain_package('haroopad').with({
       :provider => 'appdmg',
-      :source   => 'http://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-gpl-6.0.2-osx-i686.dmg/from/http://cdn.mysql.com/'
+      :source   => 'https://bitbucket.org/rhiokim/haroopad-download/downloads/haroopad-v0.12.2.dmg'
     })
   end
 end
