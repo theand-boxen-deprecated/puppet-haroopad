@@ -1,4 +1,4 @@
-# Haroopad Puppet Module for Boxen \
+# Haroopad Puppet Module for Boxen
 
 Install [Haroopad](http://pad.haroopress.com/).
 
