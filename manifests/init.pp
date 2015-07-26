@@ -6,6 +6,6 @@
 class haroopad {
   package { 'haroopad':
     provider => 'appdmg',
-    source   => 'https://bitbucket.org/rhiokim/haroopad-download/downloads/haroopad-v0.12.2.dmg'
+    source   => 'https://bitbucket.org/rhiokim/haroopad-download/downloads/Haroopad-v0.13.1-x64.dmg'
   }
 }
